@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T12:43:01.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="13.10.3" etag="86tS95ijIIaXPplGCiVU" type="github"><diagram id="yoSXQYnCb3TFeG8osHXX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-26T12:49:36.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="fX_sIQfbWsH6qt2p8i49" version="13.10.3" type="github">
+  <diagram id="yoSXQYnCb3TFeG8osHXX" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l0veT3EVWI9T3JJudsp5-2" value="Andador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="590" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-5" value="Acessar Meus Ganhos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-6" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l0veT3EVWI9T3JJudsp5-2" target="l0veT3EVWI9T3JJudsp5-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-8" value="Sistema" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-9" value="Exibir Dog Wallet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-10" value="Exibir Gráfico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-11" value="Exibir Total de Ganhos/Taxa&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-12" value="Voltar" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l0veT3EVWI9T3JJudsp5-5" target="l0veT3EVWI9T3JJudsp5-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="500" as="sourcePoint" />
+            <mxPoint x="370" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="470" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l0veT3EVWI9T3JJudsp5-5" target="l0veT3EVWI9T3JJudsp5-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="490" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-20" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=none;dashed=1;html=1;exitX=0.792;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l0veT3EVWI9T3JJudsp5-5" target="l0veT3EVWI9T3JJudsp5-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="sourcePoint" />
+            <mxPoint x="430" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-24" value="Retirar Ganhos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0veT3EVWI9T3JJudsp5-25" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="l0veT3EVWI9T3JJudsp5-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="380" as="sourcePoint" />
+            <mxPoint x="660" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
